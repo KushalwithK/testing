@@ -35,6 +35,23 @@ const employees = [
     },
 ]
 
+// const mappedEmployees = employees.map((employee) => {
+//     return {
+//         ...employee,
+//         salary: 0
+//     }
+// })
+
+const nums = [1,2,3,4,5,6]
+
+const greaterThanThree = nums.filter((num) => {
+    const secondNum = num * 2
+    return secondNum <= nums[nums.length - 1]
+})
+
+console.log(greaterThanThree);
+
+// console.log(anotherNum);
 // const empName = employees.map((employee) => {
 //     return employee.name
 // })
